@@ -1,0 +1,9 @@
+<div class="col-md-3 wish-list">
+  <header class="text-uppercase">Games to Play</header>
+  <ul>
+    <li ng-repeat="game in gamesToPlay">
+      <a href="{{game.url}}">{{game.title}}</a>
+      <p>{{game.description}}</p>
+    </li>
+  </ul>
+</div>
